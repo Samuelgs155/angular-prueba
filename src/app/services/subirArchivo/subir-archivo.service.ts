@@ -24,7 +24,7 @@ export class SubirArchivoService {
           } else {
             console.log('Fallo en la subida');
             reject( xhr.response );
-          }
+          } 
         }
       };
 
